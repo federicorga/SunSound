@@ -16,7 +16,7 @@ function renderCardModel(page) {
       <div class="vinyl-label"><img src="imagenes/NFTs/${page.nftimg}" alt="Descripción de la imagen""></div>
     </div>
   </div>
-    <audio class="btnAudio" id="audioPlayer${page.id}" controls>
+    <audio class="btnAudio audioPlayer" id="audioPlayer${page.id}" controls>
             <source src="audio/${page.audioCard}" type="audio/mp3">
             Tu navegador no soporta el elemento de audio.
         </audio>
