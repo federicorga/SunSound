@@ -994,7 +994,7 @@ transition: 0.5s;
   cursor: pointer;
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 1024px ), screen and (max-width:550px){
 
   .card {
   
