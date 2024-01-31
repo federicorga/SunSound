@@ -1014,9 +1014,6 @@ transition: 0.5s;
     } 
   
   
-  .rotate {
-    animation: spin 10s infinite linear;
-  }
 
 
   /*IMAGENES*/
@@ -1152,6 +1149,7 @@ nav{
 }
 
 
+
 .vinyl-container {
   z-index: 55;
   position: relative;
@@ -1182,8 +1180,6 @@ nav{
 
 
 
-/*GALERY*/
-
 
 @keyframes spin {
   from {
@@ -1193,6 +1189,10 @@ nav{
     transform: rotateZ(360deg);
   }
 } 
+
+.rotate {
+  animation: spin 10s infinite linear;
+}
 
 /* Estilo personalizado para todos los reproductores de audio con clase 'audioPlayer' */
 .audioPlayer {
