@@ -263,7 +263,8 @@ display: flex;
 }
 
 
-.fa-brands{padding-right: 2rem;}
+.fa-brands{padding-right: 1rem;}
+.footerpadingico{padding-right: 0.5rem;}
 
 .fa-facebook{
   transition: 0.5s;
