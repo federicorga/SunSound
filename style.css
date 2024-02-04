@@ -1178,9 +1178,6 @@ nav{
 
 
 
-
-
-
 @keyframes spin {
   from {
     transform: rotateZ(0deg);
@@ -1226,4 +1223,112 @@ nav{
 /* Estilo para el fondo del reproductor de audio en navegadores WebKit */
 .audioPlayer::-webkit-media-controls-panel {
   background: linear-gradient(137deg, rgb(255, 0, 179) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+
+
+.countain-img-alaNorte{
+  display: flex;
+  width: 244px;
+  margin-left: 190px;
+  height: 86px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-alaNorte{
+  display: flex;
+  margin-top: 200px;
+  width: 220px;
+  padding: 13px;
+  height: 220px;
+  background: white;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/*CURSOS*/
+.curse-section-detail{
+  display: flex;
+  padding: 200px;
+  align-items: center;
+}
+
+.img-curse-detail{
+  width: 400px;
+}
+
+
+
+.content-tit-p-curse-detail{
+  padding-left: 3rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title-curse-detail{
+  color: #ff4242;
+ 
+  font-size: 2rem;
+  text-transform: uppercase;
+  line-height: 1.09;
+  padding: 0;
+  font-weight: 800;
+  
+  text-align: left;
+}
+
+.subtitle-curse-detail{
+  margin: 0;
+  font-size: 4rem;
+  text-transform: uppercase;
+  line-height: 1.09;
+  padding: 0;
+  font-weight: 800;
+  color: #494949;
+  text-align: left;
+
+}
+
+.content-p-curse-detail{}
+
+.p-curse-detail{
+  color:white;
+}
+
+
+.link-curse-inscrip-detail{    
+  background: #c43030;
+  color: white;
+  border-color: white;
+  padding: 17px 40px;
+  line-height: 21px;
+  font-size: 18px;
+  text-decoration: none;}
+
+
+
+  .cards-course-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 229px;
+    align-items: center;
+    justify-content: center;
+}
+  
+  .cardCurso {
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cardCurso img {
+    width: 80%;
+    height: auto;
 }

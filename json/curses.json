@@ -1,0 +1,92 @@
+
+[
+    { "id": 0, 
+    "imgUrl":"http://alanorte.com.ar/wp-content/uploads/2022/05/Tecnicas-de-Mezcla-de-Dj-1-1.jpg", 
+    "tipoCurso":"CURSOS - MÚSICA URBANA",
+    "nombre": "TÉCNICAS DE MEZCLA DE DJ", 
+     "descripcion":[ "El Curso está diseñado para quienes desean ingresar al mundo de los Dj´s Profesionales y dar sus primeros pasos en el manejo de las herramientas y tecnologías aplicadas a las Técnicas de Mezcla, manejo de Reproductores de Música de las diferentes tecnologías Analógicas (Vinilos) y Digitales y Virtuales, control de Mixers y Procesadores de Efectos, así como también, al conocimiento de Estilos Musicales y Estéticas Artísticas .",
+    "No se necesitan conocimientos previos." ]},
+
+    { "id": 1,
+    "imgUrl":"http://alanorte.com.ar/wp-content/uploads/2022/05/Tecnologia-y-Tecnicas-de-Produccion-Para-Musicos-y-Compositores.jpg",
+    "tipoCurso":"CURSOS - CURSOS LANZAMIENTO","nombre": "TECNOLOGÍA Y TÉCNICAS DE PRODUCCIÓN PARA MÚSICOS Y COMPOSITORES",
+     "descripcion":[ "Un curso ideal para aquellos músicos, intérpretes y compositores que quieran descubrir y/o expandir sus posibilidades con el uso de las tecnologías actuales aplicadas a la Música y Técnicas de Producción y Composición Contemporáneas, tales como Software, Hardware, Procesadores de Efectos y Síntesis y Diseño Sonoro."] 
+    },
+    { "id": 2,
+    "imgUrl":"http://alanorte.com.ar/wp-content/uploads/2022/05/Teclados.jpg",
+    "tipoCurso":"CLASES DE INSTRUMENTOS - CURSOS","nombre": "TECLADO",
+     "descripcion":[ "El Teclado es un instrumento que nos permite interpretar una enorme cantidad de sonidos e ideas musicales. Además de su desarrollo histórico tradicional, gracias al avance de la Tecnología, ha pasado a ser la interfase por excelencia utilizada en la creación musical e interpretación de herramientas software.", "Las clases están dirigidas a todos aquellos que quieran descubrir el arte de la interpretación del Teclado, así como también a aquellos que quieran expandir sus conocimientos y/o perfeccionar su técnica.", "Nuestro método se adapta a cada estudiante, con una serie de programas personalizados y para todas las edades, atravesando contenidos tales como Escalas, Armonía e Improvisación y Técnicas de Digitación y Lectura y Composición."] 
+    },
+    { "id": 3,
+    "imgUrl":"http://alanorte.com.ar/wp-content/uploads/2023/07/PROGRAMA-INTEGRAL-–-Productor-Dj-1.jpg",
+    "tipoCurso":"CURSOS - CURSOS LANZAMIENTO","nombre": "PROGRAMA INTEGRAL – PRODUCTOR DJ",
+     "descripcion":[ "El Programa Integral Productor/Dj es una propuesta educativa en Formato 4×4, que incluye cuatro ejes temáticos, o Módulos, que se desarrollan en paralelo y de forma sincronizada, en relación al contenido y su evolución, a lo largo de 4 meses.", "Dichos Módulos cubren el contenido inicial y básico para la formación de un Productor/Dj, garantizando un aprendizaje integral y completo.", "Producción de Música por Medios Electrónicos","Técnicas de Mezcla para Djs","Diseño Sonoro","Lenguaje Musical y Teclados","Carga Horaria:","Dos días a la a la semana, tres horas que incluye dos clases consecutivas de una hora y media cada una. Lunes y Miércoles a las 19hs y a las 20:30hs"] 
+    },
+    { "id": 4,
+    "imgUrl":"http://alanorte.com.ar/wp-content/uploads/2022/05/Produccion-de-Musica-Electronica-–-Nivel-Inicial-1.jpg",
+    "tipoCurso":"CURSOS - CURSOS LANZAMIENTO","nombre": "PRODUCCIÓN DE MÚSICA ELECTRÓNICA – NIVEL INICIAL",
+     "descripcion":[ "El Curso está diseñado para quienes desean ingresar al mundo de la Producción de Música Electrónica y dar sus primeros pasos en el manejo de las herramientas y tecnologías aplicadas a la composición musical, instrumentos y procesadores virtuales, Audio Digital,", "y comprender la construcción de elementos rítmicos y melódicos y sus combinaciones.", "Se trabajará sobre la plataforma Ableton Live y diferentes herramientas, tanto de la firma Arturia, así como otros desarrolladores.", "No se necesitan conocimientos previos."] 
+    },
+    { "id": 5,
+    "imgUrl":"http://alanorte.com.ar/wp-content/uploads/2022/05/Grabacion-Edicion-y-Mezcla-de-Musica-Urbana-1.jpg",
+    "tipoCurso":"CURSOS - MÚSICA URBANA","nombre": "GRABACIÓN, EDICIÓN Y MEZCLA DE MÚSICA URBANA",
+     "descripcion":[ "El curso está diseñado para quienes desean ingresar al mundo de la Grabación, Edición y Mezcla de Voces e Instrumentos en el marco de la Producción de Música Urbana y dar sus primeros pasos en el manejo de las herramientas y tecnologías aplicadas a la Post Producción de Beats & Instrumentales.", "Se trabajará sobre la plataformas Fl Studio y Ableton Live y diferentes herramientas, tanto de la firma Arturia, así como otros desarrolladores, y en el análisis y aplicación de los diversos y característicos Procesos de señal.", "No es necesario conocimientos previos."] 
+    },
+    { "id": 6,
+    "imgUrl":"http://alanorte.com.ar/wp-content/uploads/2022/05/Ensambles-de-percusion-1.jpg",
+    "tipoCurso":"CLASES DE INSTRUMENTOS - CURSOS","nombre": "ENSAMBLES DE PERCUSIÓN",
+     "descripcion":[ "Los Ensambles de percusión tienen un fin lúdico, de encuentro, escucha, energía y de perfeccionamiento.", "La experiencia incluye el estudio y puesta en práctica, tanto de las características rítmicas pertenecientes a cada país de América como ser Argentina, Brasil, Uruguay, Cuba, como también, la construcción y desarrollo de ensambles genéricos.", "Dirigido a todos los niveles y organizado por edades."] 
+    },
+    { "id": 7,
+    "imgUrl":"http://alanorte.com.ar/wp-content/uploads/2022/05/Bajo-1.jpg",
+    "tipoCurso":"CLASES DE INSTRUMENTOS - CURSOS","nombre": "BAJO",
+     "descripcion":[ "El Bajo es un instrumento con características sonoras únicas y posibilidades musicales que atraviesan una gran cantidad de géneros musicales.", "El Bajo es un instrumento con características sonoras únicas y posibilidades musicales que atraviesan una gran cantidad de géneros musicales.", "Nuestro método se adapta a cada estudiante, con una serie de programas personalizados y para todas las edades, atravesando contenidos tales como Escalas, Conceptos de Armonía, Improvisación, diferentes Técnicas de Digitación, Lectura y Composición de Líneas."] 
+    },
+    { "id": 8,
+    "imgUrl":"http://alanorte.com.ar/wp-content/uploads/2022/05/Violin-Grupal-1.jpg",
+    "tipoCurso":"CLASES DE INSTRUMENTOS - CURSOS","nombre": "VIOLÍN GRUPAL",
+     "descripcion":[ "Las clases tienen un enfoque que integra precisión técnica, formación musical y práctica de conjunto. El trabajo en grupo nos permite un acceso dinámico, compartido y musical, por cuanto las posibilidades de tocar juntos abren un sinnúmero de situaciones riquísimas.", "Para tales fines contamos con un programa que recorre técnicas y conceptos tales como, posiciones funcionales en la incorporación del instrumento, principios del manejo de arco, acción funcional de la mano izquierda, sincronizaciones arco – mano izquierda y patrones rítmicos, así como también, distribuciones diatónicas de mano izquierda aplicadas a Escalas, Arpeggios e Intervalos en el marco de repertorios clásico, popular – de géneros diversos- e improvisación.", "Nivel inicial e intermedio."] 
+    },
+    { "id": 9,
+    "imgUrl":"http://alanorte.com.ar/wp-content/uploads/2022/05/Guitarra-1.jpg",
+    "tipoCurso":"CLASES DE INSTRUMENTOS - CURSOS","nombre": "GUITARRA",
+     "descripcion":[ "La Guitarra es un instrumento que nos permite interpretar un vasto universo de elementos musicales, tanto melódicos como armónicos y transitar diversos estilos musicales.", "Las clases están dirigidas a todos aquellos que quieran descubrir el arte de la Interpretación de la Guitarra, así como también a aquellos que quieran expandir sus conocimientos y/o perfeccionar su técnica.", "Nuestro método se adapta a cada estudiante, con una serie de programas personalizados y para todas las edades, atravesando contenidos tales como Escalas, Armonía e Improvisación, y técnicas de Digitación y Lectura y Composición."] 
+    },
+    { "id": 10,
+    "imgUrl":"http://alanorte.com.ar/wp-content/uploads/2022/05/Looping-1.jpg",
+    "tipoCurso":"CURSOS - CURSOS LANZAMIENTO","nombre": "LOOPING",
+     "descripcion":[ "El Looping es una técnica compositiva e interpretativa que permite lograr paisajes musicales únicos. Gracias al manejo de conceptos tales como Rítmica, Armonía, Arreglos y Orquestación y Técnicas texturales, tímbricas, discursivas y formales, las Looperas se convierten en un instrumento con infinitas posibilidades.", "El curso es teórico práctico, y está orientado a conocer y experimentar dichos conceptos aplicados a diferentes estéticas, modalidades, tipos de Looperas y sus parámetros principales, así como también a sus diversos usos, tanto en vivo, como en el estudio."] 
+    },
+    { "id": 11,
+    "imgUrl":"http://alanorte.com.ar/wp-content/uploads/2022/05/Canto.jpg",
+    "tipoCurso":"CURSOS","nombre": "CANTO",
+     "descripcion":[ "El Canto es la expresión artística a través de la Voz humana, directamente ligada a la identidad del artista. Es por eso que el siguiente curso apunta al entrenamiento vocal para potenciar las habilidades de cada estudiante y construir un sonido propio.", "Las clases están dirigidas a todas aquellas personas, sean músicos o no, que quieran iniciarse en el estudio del Canto y la interpretación de canciones u obras musicales. Así como también a aquellas personas con experiencia previa que quieran ampliar sus conocimientos.", "Se apunta al desarrollo de la voz cantada como herramienta de expresión artística con el objeto de lograr un mayor rendimiento y una mayor expresividad."] 
+    },
+    { "id": 12,
+    "imgUrl":"http://alanorte.com.ar/wp-content/uploads/2022/05/Bateria-1.jpg",
+    "tipoCurso":"CLASES DE INSTRUMENTOS - CURSOS","nombre": "BATERÍA",
+     "descripcion":[ "La Batería es el instrumento rítmico por excelencia con una gama infinita de posibilidades musicales.", "Las clases están dirigidas a todos aquellos que quieran descubrir el arte de la interpretación de la Batería, así como también a aquellos que quieran expandir sus conocimientos y/o perfeccionar su técnica.", "Nuestro método se adapta a cada estudiante, con una serie de programas personalizados y para todas las edades, atravesando contenidos tales como Técnica Moeller y de tambor Marching, Rudimentos y Stickings, Doble pedal, Modulaciones Métricas y Rítmicas Irregulares, Solos e Improvisación y Estilos tales como Funk, Fusión, Jazz Pop, Rock, Tango, Látin y Metal."] 
+    },
+    { "id": 13,
+    "imgUrl":"http://alanorte.com.ar/wp-content/uploads/2022/05/Coaching-1.jpg",
+    "tipoCurso":"CLASES DE INSTRUMENTOS - CURSOS","nombre": "COACHING",
+     "descripcion":[ "Nuestro Programa de Coaching está dirigido a todos aquellos artistas que han iniciado su recorrido por el mundo de la Producción Musical y del Djing, y desean profesionalizar su sonido, sus composiciones y sus presentaciones en vivo, en un marco estético definido y con objetivos puntuales para el desarrollo de su carrera. Para este fin contamos con la colaboración de figuras de reconocimiento nacional e internacional en un contexto práctico y analítico de trabajo individual y personalizado."] 
+    },
+    { "id": 14,
+    "imgUrl":"http://alanorte.com.ar/wp-content/uploads/2022/05/Percusion-Individual-1.jpg",
+    "tipoCurso":"CLASES DE INSTRUMENTOS - CURSOS","nombre": "PERCUSIÓN INDIVIDUAL",
+     "descripcion":[ "Con un fin terapéutico, lúdico y de perfeccionamiento este curso está orientado a estudiantes principiantes, intermedios y avanzados a partir de los 11 años de edad.", "La propuesta incluye un recorrido por los instrumentos autóctonos de cada región, cómo cajón peruano (Perú), bongó, congas y accesorios (Cuba), bombo legüero (Argentina), pandeiro y accesorios (Brasil), tambores de Candombe (Uruguay), derbake (oriente), entre otros.", "En el nivel inicial, la metodología es por imitación utilizando el cuerpo, y la voz, para luego pasarlo al instrumento. En niveles avanzados se incluyen técnicas de lectura y escritura.", "No es necesario tener el instrumento."] 
+    },
+    { "id": 15,
+    "imgUrl":"http://alanorte.com.ar/wp-content/uploads/2022/05/Curso-de-Beatmaker.jpg",
+    "tipoCurso":"CURSOS - MÚSICA URBANA","nombre": "CURSO DE BEATMAKER",
+     "descripcion":[ "El curso está diseñado para quienes desean ingresar al mundo de la Producción de Música Urbana y dar sus primeros pasos en el manejo de las herramientas y tecnologías aplicadas a la composición y producción de Beats e Instrumentales. Para tal objetivo se estudiarán conceptos de Teoría y Lenguaje Musical, instrumentos y procesadores virtuales, sampling, Audio Digital, y comprender la construcción de elementos rítmicos y melódicos y sus combinaciones.", "Se trabajará sobre las plataformas Fl Studio y Ableton Live y diferentes herramientas, tanto de la firma Arturia, así como otros desarrolladores.", "No es necesario conocimientos previos."] 
+    },
+    { "id": 16,
+    "imgUrl":"http://alanorte.com.ar/wp-content/uploads/2022/05/Mastering-1.jpg",
+    "tipoCurso":"CURSOS - CURSOS LANZAMIENTO","nombre": "MASTERING",
+     "descripcion":[ "El curso abarca los conceptos más importantes para comprender todos los procesos empleados en el Mastering profesional. Utilizando equipamiento analógico y lo mejor del campo digital trabajando en la plataforma Pro Tools como DAW mas diferentes herramientas de desarrolladores tales como, Arturia entre otros.", "El alumno podrá dominar el uso de Ecualizadores, Compresores, Excitadores Armónicos y Limitadores y las diferentes técnicas de Mastering.", "Ideal para Ingenieros de Sonido, Músicos, Productores Musicales, Sonidistas, DJ´s, Técnicos de radio, Estudiantes, Realizadores Audiovisuales y entusiastas por el sonido y la música."] 
+    }
+ 
+]
+  
