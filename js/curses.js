@@ -23,7 +23,7 @@ function mostrarDetallecurso(index) {
     detallecurso.className="curse-section-detail"
     detallecurso.innerHTML = `
 
-    <img class="img-curse-detail" src="/imagenes/${curso.imgUrl}"></img>
+    <img class="img-curse-detail" src="${curso.imgUrl}"></img>
     <div class="content-tit-p-curse-detail">
     <h2 class="title-curse-detail">${curso.tipoCurso}</h3>
     <h3 class="subtitle-curse-detail">${curso.nombre}</h2>
