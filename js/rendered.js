@@ -13,7 +13,7 @@ function renderCardModel(page) {
    
     <div class="vinyl-container">
     <div class="vinyl" id="vinyl${page.id}">
-      <div class="vinyl-label"><img src="imagenes/NFTs/${page.nftimg}" alt="Descripción de la imagen""></div>
+      <div class="vinyl-label"><img src="/imagenes/NFTs/${page.nftimg}" alt="Descripción de la imagen""></div>
     </div>
   </div>
     <audio class="btnAudio audioPlayer" id="audioPlayer${page.id}" controls>
