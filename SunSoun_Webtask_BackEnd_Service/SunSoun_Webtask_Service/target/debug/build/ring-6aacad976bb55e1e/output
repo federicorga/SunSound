@@ -1,0 +1,343 @@
+cargo:rerun-if-env-changed=RING_PREGENERATE_ASM
+cargo:rustc-env=RING_CORE_PREFIX=ring_core_0_17_8_
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+cargo:rerun-if-env-changed=CC_x86_64-apple-darwin
+CC_x86_64-apple-darwin = None
+cargo:rerun-if-env-changed=CC_x86_64_apple_darwin
+CC_x86_64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:warning=running: "cc" "--version"
+cargo:warning=exit status: 0
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:rerun-if-env-changed=CFLAGS_x86_64-apple-darwin
+CFLAGS_x86_64-apple-darwin = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_apple_darwin
+CFLAGS_x86_64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/fad98b632b8ce3cc-curve25519.o" "-c" "crypto/curve25519/curve25519.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/ca4b6ef5433f5aeb-aes_nohw.o" "-c" "crypto/fipsmodule/aes/aes_nohw.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/ca8bd8684bb569fa-montgomery.o" "-c" "crypto/fipsmodule/bn/montgomery.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/ca8bd8684bb569fa-montgomery_inv.o" "-c" "crypto/fipsmodule/bn/montgomery_inv.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/a9af75d892b04b75-ecp_nistz.o" "-c" "crypto/fipsmodule/ec/ecp_nistz.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/a9af75d892b04b75-gfp_p256.o" "-c" "crypto/fipsmodule/ec/gfp_p256.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/a9af75d892b04b75-gfp_p384.o" "-c" "crypto/fipsmodule/ec/gfp_p384.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/a9af75d892b04b75-p256.o" "-c" "crypto/fipsmodule/ec/p256.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/a1949f2101df4b9c-limbs.o" "-c" "crypto/limbs/limbs.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/7effb53edfc7fa2d-mem.o" "-c" "crypto/mem.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/bec76f70393ddef1-poly1305.o" "-c" "crypto/poly1305/poly1305.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/7effb53edfc7fa2d-crypto.o" "-c" "crypto/crypto.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/7effb53edfc7fa2d-cpu_intel.o" "-c" "crypto/cpu_intel.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/fad98b632b8ce3cc-curve25519_64_adx.o" "-c" "crypto/curve25519/curve25519_64_adx.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/bec76f70393ddef1-poly1305_vec.o" "-c" "crypto/poly1305/poly1305_vec.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/c33e1852c646f991-fiat_curve25519_adx_mul.o" "-c" "third_party/fiat/asm/fiat_curve25519_adx_mul.S"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/c33e1852c646f991-fiat_curve25519_adx_square.o" "-c" "third_party/fiat/asm/fiat_curve25519_adx_square.S"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/a9af75d892b04b75-p256-nistz.o" "-c" "crypto/fipsmodule/ec/p256-nistz.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/77b3151ca4f4064c-chacha-x86_64-macosx.o" "-c" "/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ring-0.17.8/pregenerated/chacha-x86_64-macosx.S"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/77b3151ca4f4064c-aesni-x86_64-macosx.o" "-c" "/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ring-0.17.8/pregenerated/aesni-x86_64-macosx.S"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/77b3151ca4f4064c-vpaes-x86_64-macosx.o" "-c" "/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ring-0.17.8/pregenerated/vpaes-x86_64-macosx.S"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/77b3151ca4f4064c-x86_64-mont-macosx.o" "-c" "/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ring-0.17.8/pregenerated/x86_64-mont-macosx.S"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/77b3151ca4f4064c-x86_64-mont5-macosx.o" "-c" "/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ring-0.17.8/pregenerated/x86_64-mont5-macosx.S"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/77b3151ca4f4064c-p256-x86_64-asm-macosx.o" "-c" "/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ring-0.17.8/pregenerated/p256-x86_64-asm-macosx.S"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/77b3151ca4f4064c-aesni-gcm-x86_64-macosx.o" "-c" "/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ring-0.17.8/pregenerated/aesni-gcm-x86_64-macosx.S"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/77b3151ca4f4064c-ghash-x86_64-macosx.o" "-c" "/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ring-0.17.8/pregenerated/ghash-x86_64-macosx.S"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/77b3151ca4f4064c-sha512-x86_64-macosx.o" "-c" "/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ring-0.17.8/pregenerated/sha512-x86_64-macosx.S"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/77b3151ca4f4064c-chacha20_poly1305_x86_64-macosx.o" "-c" "/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ring-0.17.8/pregenerated/chacha20_poly1305_x86_64-macosx.S"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/77b3151ca4f4064c-sha256-x86_64-macosx.o" "-c" "/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ring-0.17.8/pregenerated/sha256-x86_64-macosx.S"
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+cargo:warning=running: ZERO_AR_DATE="1" "ar" "cq" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/libring_core_0_17_8_.a" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/fad98b632b8ce3cc-curve25519.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/ca4b6ef5433f5aeb-aes_nohw.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/ca8bd8684bb569fa-montgomery.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/ca8bd8684bb569fa-montgomery_inv.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/a9af75d892b04b75-ecp_nistz.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/a9af75d892b04b75-gfp_p256.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/a9af75d892b04b75-gfp_p384.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/a9af75d892b04b75-p256.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/a1949f2101df4b9c-limbs.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/7effb53edfc7fa2d-mem.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/bec76f70393ddef1-poly1305.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/7effb53edfc7fa2d-crypto.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/7effb53edfc7fa2d-cpu_intel.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/fad98b632b8ce3cc-curve25519_64_adx.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/bec76f70393ddef1-poly1305_vec.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/c33e1852c646f991-fiat_curve25519_adx_mul.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/c33e1852c646f991-fiat_curve25519_adx_square.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/a9af75d892b04b75-p256-nistz.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/77b3151ca4f4064c-chacha-x86_64-macosx.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/77b3151ca4f4064c-aesni-x86_64-macosx.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/77b3151ca4f4064c-vpaes-x86_64-macosx.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/77b3151ca4f4064c-x86_64-mont-macosx.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/77b3151ca4f4064c-x86_64-mont5-macosx.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/77b3151ca4f4064c-p256-x86_64-asm-macosx.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/77b3151ca4f4064c-aesni-gcm-x86_64-macosx.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/77b3151ca4f4064c-ghash-x86_64-macosx.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/77b3151ca4f4064c-sha512-x86_64-macosx.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/77b3151ca4f4064c-chacha20_poly1305_x86_64-macosx.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/77b3151ca4f4064c-sha256-x86_64-macosx.o"
+cargo:warning=/Library/Developer/CommandLineTools/usr/bin/ranlib: file: /Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/libring_core_0_17_8_.a(a9af75d892b04b75-gfp_p256.o) has no symbols
+cargo:warning=/Library/Developer/CommandLineTools/usr/bin/ranlib: file: /Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/libring_core_0_17_8_.a(a9af75d892b04b75-p256.o) has no symbols
+cargo:warning=/Library/Developer/CommandLineTools/usr/bin/ranlib: file: /Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/libring_core_0_17_8_.a(bec76f70393ddef1-poly1305.o) has no symbols
+cargo:warning=exit status: 0
+cargo:warning=running: "ar" "s" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/libring_core_0_17_8_.a"
+cargo:warning=/Library/Developer/CommandLineTools/usr/bin/ranlib: file: /Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/libring_core_0_17_8_.a(a9af75d892b04b75-gfp_p256.o) has no symbols
+cargo:warning=/Library/Developer/CommandLineTools/usr/bin/ranlib: file: /Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/libring_core_0_17_8_.a(a9af75d892b04b75-p256.o) has no symbols
+cargo:warning=/Library/Developer/CommandLineTools/usr/bin/ranlib: file: /Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/libring_core_0_17_8_.a(bec76f70393ddef1-poly1305.o) has no symbols
+cargo:warning=exit status: 0
+cargo:rustc-link-lib=static=ring_core_0_17_8_
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+cargo:rerun-if-env-changed=CC_x86_64-apple-darwin
+CC_x86_64-apple-darwin = None
+cargo:rerun-if-env-changed=CC_x86_64_apple_darwin
+CC_x86_64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:warning=running: "cc" "--version"
+cargo:warning=exit status: 0
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:rerun-if-env-changed=CFLAGS_x86_64-apple-darwin
+CFLAGS_x86_64-apple-darwin = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_apple_darwin
+CFLAGS_x86_64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "include" "-I" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out" "-Wall" "-Wextra" "-fvisibility=hidden" "-std=c1x" "-Wall" "-Wbad-function-cast" "-Wcast-align" "-Wcast-qual" "-Wconversion" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wnested-externs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wsign-conversion" "-Wstrict-prototypes" "-Wundef" "-Wuninitialized" "-gfull" "-DNDEBUG" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/7effb53edfc7fa2d-constant_time_test.o" "-c" "crypto/constant_time_test.c"
+cargo:warning=exit status: 0
+cargo:warning=running: ZERO_AR_DATE="1" "ar" "cq" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/libring_core_0_17_8_test.a" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/7effb53edfc7fa2d-constant_time_test.o"
+cargo:warning=exit status: 0
+cargo:warning=running: "ar" "s" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out/libring_core_0_17_8_test.a"
+cargo:warning=exit status: 0
+cargo:rustc-link-lib=static=ring_core_0_17_8_test
+cargo:rustc-link-search=native=/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/ring-6aacad976bb55e1e/out
+cargo:rerun-if-changed=crypto/perlasm/x86_64-xlate.pl
+cargo:rerun-if-changed=crypto/perlasm/x86gas.pl
+cargo:rerun-if-changed=crypto/perlasm/x86nasm.pl
+cargo:rerun-if-changed=crypto/perlasm/arm-xlate.pl
+cargo:rerun-if-changed=crypto/perlasm/x86asm.pl
+cargo:rerun-if-changed=crypto/internal.h
+cargo:rerun-if-changed=crypto/cpu_intel.c
+cargo:rerun-if-changed=crypto/chacha/asm/chacha-x86.pl
+cargo:rerun-if-changed=crypto/chacha/asm/chacha-armv8.pl
+cargo:rerun-if-changed=crypto/chacha/asm/chacha-x86_64.pl
+cargo:rerun-if-changed=crypto/chacha/asm/chacha-armv4.pl
+cargo:rerun-if-changed=crypto/mem.c
+cargo:rerun-if-changed=crypto/fipsmodule/modes/asm/ghashv8-armx.pl
+cargo:rerun-if-changed=crypto/fipsmodule/modes/asm/aesv8-gcm-armv8.pl
+cargo:rerun-if-changed=crypto/fipsmodule/modes/asm/ghash-x86.pl
+cargo:rerun-if-changed=crypto/fipsmodule/modes/asm/aesni-gcm-x86_64.pl
+cargo:rerun-if-changed=crypto/fipsmodule/modes/asm/ghash-x86_64.pl
+cargo:rerun-if-changed=crypto/fipsmodule/modes/asm/ghash-armv4.pl
+cargo:rerun-if-changed=crypto/fipsmodule/ec/ecp_nistz.c
+cargo:rerun-if-changed=crypto/fipsmodule/ec/p256-nistz.h
+cargo:rerun-if-changed=crypto/fipsmodule/ec/asm/p256-x86_64-asm.pl
+cargo:rerun-if-changed=crypto/fipsmodule/ec/asm/p256-armv8-asm.pl
+cargo:rerun-if-changed=crypto/fipsmodule/ec/ecp_nistz384.inl
+cargo:rerun-if-changed=crypto/fipsmodule/ec/gfp_p256.c
+cargo:rerun-if-changed=crypto/fipsmodule/ec/p256-nistz.c
+cargo:rerun-if-changed=crypto/fipsmodule/ec/p256_shared.h
+cargo:rerun-if-changed=crypto/fipsmodule/ec/ecp_nistz.h
+cargo:rerun-if-changed=crypto/fipsmodule/ec/p256-nistz-table.h
+cargo:rerun-if-changed=crypto/fipsmodule/ec/util.h
+cargo:rerun-if-changed=crypto/fipsmodule/ec/gfp_p384.c
+cargo:rerun-if-changed=crypto/fipsmodule/ec/ecp_nistz384.h
+cargo:rerun-if-changed=crypto/fipsmodule/ec/p256.c
+cargo:rerun-if-changed=crypto/fipsmodule/ec/p256_table.h
+cargo:rerun-if-changed=crypto/fipsmodule/bn/internal.h
+cargo:rerun-if-changed=crypto/fipsmodule/bn/asm/armv8-mont.pl
+cargo:rerun-if-changed=crypto/fipsmodule/bn/asm/x86-mont.pl
+cargo:rerun-if-changed=crypto/fipsmodule/bn/asm/x86_64-mont.pl
+cargo:rerun-if-changed=crypto/fipsmodule/bn/asm/x86_64-mont5.pl
+cargo:rerun-if-changed=crypto/fipsmodule/bn/asm/armv4-mont.pl
+cargo:rerun-if-changed=crypto/fipsmodule/bn/montgomery.c
+cargo:rerun-if-changed=crypto/fipsmodule/bn/montgomery_inv.c
+cargo:rerun-if-changed=crypto/fipsmodule/sha/asm/sha512-armv8.pl
+cargo:rerun-if-changed=crypto/fipsmodule/sha/asm/sha512-x86_64.pl
+cargo:rerun-if-changed=crypto/fipsmodule/sha/asm/sha256-armv4.pl
+cargo:rerun-if-changed=crypto/fipsmodule/sha/asm/sha512-armv4.pl
+cargo:rerun-if-changed=crypto/fipsmodule/aes/asm/vpaes-x86_64.pl
+cargo:rerun-if-changed=crypto/fipsmodule/aes/asm/vpaes-x86.pl
+cargo:rerun-if-changed=crypto/fipsmodule/aes/asm/bsaes-armv7.pl
+cargo:rerun-if-changed=crypto/fipsmodule/aes/asm/aesv8-armx.pl
+cargo:rerun-if-changed=crypto/fipsmodule/aes/asm/aesni-x86_64.pl
+cargo:rerun-if-changed=crypto/fipsmodule/aes/asm/aesni-x86.pl
+cargo:rerun-if-changed=crypto/fipsmodule/aes/aes_nohw.c
+cargo:rerun-if-changed=crypto/constant_time_test.c
+cargo:rerun-if-changed=crypto/cipher_extra/asm/chacha20_poly1305_armv8.pl
+cargo:rerun-if-changed=crypto/cipher_extra/asm/chacha20_poly1305_x86_64.pl
+cargo:rerun-if-changed=crypto/poly1305/internal.h
+cargo:rerun-if-changed=crypto/poly1305/poly1305_vec.c
+cargo:rerun-if-changed=crypto/poly1305/poly1305_arm.c
+cargo:rerun-if-changed=crypto/poly1305/poly1305_arm_asm.S
+cargo:rerun-if-changed=crypto/poly1305/poly1305.c
+cargo:rerun-if-changed=crypto/limbs/limbs.inl
+cargo:rerun-if-changed=crypto/limbs/limbs.c
+cargo:rerun-if-changed=crypto/limbs/limbs.h
+cargo:rerun-if-changed=crypto/curve25519/internal.h
+cargo:rerun-if-changed=crypto/curve25519/asm/x25519-asm-arm.S
+cargo:rerun-if-changed=crypto/curve25519/curve25519_64_adx.c
+cargo:rerun-if-changed=crypto/curve25519/curve25519.c
+cargo:rerun-if-changed=crypto/curve25519/curve25519_tables.h
+cargo:rerun-if-changed=crypto/crypto.c
+cargo:rerun-if-changed=include/ring-core/asm_base.h
+cargo:rerun-if-changed=include/ring-core/arm_arch.h
+cargo:rerun-if-changed=include/ring-core/poly1305.h
+cargo:rerun-if-changed=include/ring-core/type_check.h
+cargo:rerun-if-changed=include/ring-core/aes.h
+cargo:rerun-if-changed=include/ring-core/check.h
+cargo:rerun-if-changed=include/ring-core/target.h
+cargo:rerun-if-changed=include/ring-core/mem.h
+cargo:rerun-if-changed=include/ring-core/base.h
+cargo:rerun-if-changed=third_party/fiat/asm/fiat_curve25519_adx_mul.S
+cargo:rerun-if-changed=third_party/fiat/asm/fiat_curve25519_adx_square.S
+cargo:rerun-if-changed=third_party/fiat/LICENSE
+cargo:rerun-if-changed=third_party/fiat/curve25519_64.h
+cargo:rerun-if-changed=third_party/fiat/p256_64.h
+cargo:rerun-if-changed=third_party/fiat/curve25519_64_adx.h
+cargo:rerun-if-changed=third_party/fiat/curve25519_64_msvc.h
+cargo:rerun-if-changed=third_party/fiat/p256_64_msvc.h
+cargo:rerun-if-changed=third_party/fiat/p256_32.h
+cargo:rerun-if-changed=third_party/fiat/curve25519_32.h

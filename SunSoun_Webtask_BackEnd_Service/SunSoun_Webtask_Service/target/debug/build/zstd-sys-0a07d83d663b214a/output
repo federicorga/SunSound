@@ -1,0 +1,337 @@
+cargo:rerun-if-env-changed=ZSTD_SYS_USE_PKG_CONFIG
+TARGET = Some("x86_64-apple-darwin")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-apple-darwin")
+cargo:rerun-if-env-changed=CC_x86_64-apple-darwin
+CC_x86_64-apple-darwin = None
+cargo:rerun-if-env-changed=CC_x86_64_apple_darwin
+CC_x86_64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:warning=running: "cc" "--version"
+cargo:warning=exit status: 0
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:rerun-if-env-changed=CFLAGS_x86_64-apple-darwin
+CFLAGS_x86_64-apple-darwin = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_apple_darwin
+CFLAGS_x86_64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CC_x86_64-apple-darwin
+CC_x86_64-apple-darwin = None
+cargo:rerun-if-env-changed=CC_x86_64_apple_darwin
+CC_x86_64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:warning=running: "cc" "--version"
+cargo:warning=exit status: 0
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:rerun-if-env-changed=CFLAGS_x86_64-apple-darwin
+CFLAGS_x86_64-apple-darwin = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_apple_darwin
+CFLAGS_x86_64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CC_x86_64-apple-darwin
+CC_x86_64-apple-darwin = None
+cargo:rerun-if-env-changed=CC_x86_64_apple_darwin
+CC_x86_64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:warning=running: "cc" "--version"
+cargo:warning=exit status: 0
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:rerun-if-env-changed=CFLAGS_x86_64-apple-darwin
+CFLAGS_x86_64-apple-darwin = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_apple_darwin
+CFLAGS_x86_64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CC_x86_64-apple-darwin
+CC_x86_64-apple-darwin = None
+cargo:rerun-if-env-changed=CC_x86_64_apple_darwin
+CC_x86_64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:warning=running: "cc" "--version"
+cargo:warning=exit status: 0
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:rerun-if-env-changed=CFLAGS_x86_64-apple-darwin
+CFLAGS_x86_64-apple-darwin = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_apple_darwin
+CFLAGS_x86_64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/8957a4c8b028b07b-debug.o" "-c" "zstd/lib/common/debug.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/8957a4c8b028b07b-entropy_common.o" "-c" "zstd/lib/common/entropy_common.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/8957a4c8b028b07b-error_private.o" "-c" "zstd/lib/common/error_private.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/8957a4c8b028b07b-fse_decompress.o" "-c" "zstd/lib/common/fse_decompress.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/8957a4c8b028b07b-pool.o" "-c" "zstd/lib/common/pool.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/8957a4c8b028b07b-threading.o" "-c" "zstd/lib/common/threading.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/8957a4c8b028b07b-zstd_common.o" "-c" "zstd/lib/common/zstd_common.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-fse_compress.o" "-c" "zstd/lib/compress/fse_compress.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-hist.o" "-c" "zstd/lib/compress/hist.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-huf_compress.o" "-c" "zstd/lib/compress/huf_compress.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-zstd_compress.o" "-c" "zstd/lib/compress/zstd_compress.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-zstd_compress_literals.o" "-c" "zstd/lib/compress/zstd_compress_literals.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-zstd_compress_sequences.o" "-c" "zstd/lib/compress/zstd_compress_sequences.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-zstd_compress_superblock.o" "-c" "zstd/lib/compress/zstd_compress_superblock.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-zstd_double_fast.o" "-c" "zstd/lib/compress/zstd_double_fast.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-zstd_fast.o" "-c" "zstd/lib/compress/zstd_fast.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-zstd_lazy.o" "-c" "zstd/lib/compress/zstd_lazy.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-zstd_ldm.o" "-c" "zstd/lib/compress/zstd_ldm.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-zstd_opt.o" "-c" "zstd/lib/compress/zstd_opt.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-zstdmt_compress.o" "-c" "zstd/lib/compress/zstdmt_compress.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/690f776bf7b37aeb-huf_decompress.o" "-c" "zstd/lib/decompress/huf_decompress.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/690f776bf7b37aeb-zstd_ddict.o" "-c" "zstd/lib/decompress/zstd_ddict.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/690f776bf7b37aeb-zstd_decompress.o" "-c" "zstd/lib/decompress/zstd_decompress.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/690f776bf7b37aeb-zstd_decompress_block.o" "-c" "zstd/lib/decompress/zstd_decompress_block.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/b0401a448be314bb-cover.o" "-c" "zstd/lib/dictBuilder/cover.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/b0401a448be314bb-divsufsort.o" "-c" "zstd/lib/dictBuilder/divsufsort.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/b0401a448be314bb-fastcover.o" "-c" "zstd/lib/dictBuilder/fastcover.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/b0401a448be314bb-zdict.o" "-c" "zstd/lib/dictBuilder/zdict.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/5eeec2f4c1e9b3b6-zstd_v01.o" "-c" "zstd/lib/legacy/zstd_v01.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/5eeec2f4c1e9b3b6-zstd_v02.o" "-c" "zstd/lib/legacy/zstd_v02.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/5eeec2f4c1e9b3b6-zstd_v03.o" "-c" "zstd/lib/legacy/zstd_v03.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/5eeec2f4c1e9b3b6-zstd_v04.o" "-c" "zstd/lib/legacy/zstd_v04.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/5eeec2f4c1e9b3b6-zstd_v05.o" "-c" "zstd/lib/legacy/zstd_v05.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/5eeec2f4c1e9b3b6-zstd_v06.o" "-c" "zstd/lib/legacy/zstd_v06.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/5eeec2f4c1e9b3b6-zstd_v07.o" "-c" "zstd/lib/legacy/zstd_v07.c"
+cargo:warning=running: "xcrun" "--show-sdk-platform-version" "--sdk" "macosx"
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=exit status: 1
+cargo:warning=running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "--target=x86_64-apple-darwin" "-mmacosx-version-min=10.7" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-ffunction-sections" "-fdata-sections" "-fmerge-all-constants" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/690f776bf7b37aeb-huf_decompress_amd64.o" "-c" "zstd/lib/decompress/huf_decompress_amd64.S"
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+cargo:rerun-if-env-changed=AR_x86_64-apple-darwin
+AR_x86_64-apple-darwin = None
+cargo:rerun-if-env-changed=AR_x86_64_apple_darwin
+AR_x86_64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-apple-darwin
+ARFLAGS_x86_64-apple-darwin = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_apple_darwin
+ARFLAGS_x86_64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+cargo:warning=running: ZERO_AR_DATE="1" "ar" "cq" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/libzstd.a" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/8957a4c8b028b07b-debug.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/8957a4c8b028b07b-entropy_common.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/8957a4c8b028b07b-error_private.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/8957a4c8b028b07b-fse_decompress.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/8957a4c8b028b07b-pool.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/8957a4c8b028b07b-threading.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/8957a4c8b028b07b-zstd_common.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-fse_compress.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-hist.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-huf_compress.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-zstd_compress.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-zstd_compress_literals.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-zstd_compress_sequences.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-zstd_compress_superblock.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-zstd_double_fast.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-zstd_fast.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-zstd_lazy.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-zstd_ldm.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-zstd_opt.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/1ddd1489cc625d97-zstdmt_compress.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/690f776bf7b37aeb-huf_decompress.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/690f776bf7b37aeb-zstd_ddict.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/690f776bf7b37aeb-zstd_decompress.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/690f776bf7b37aeb-zstd_decompress_block.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/b0401a448be314bb-cover.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/b0401a448be314bb-divsufsort.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/b0401a448be314bb-fastcover.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/b0401a448be314bb-zdict.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/5eeec2f4c1e9b3b6-zstd_v01.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/5eeec2f4c1e9b3b6-zstd_v02.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/5eeec2f4c1e9b3b6-zstd_v03.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/5eeec2f4c1e9b3b6-zstd_v04.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/5eeec2f4c1e9b3b6-zstd_v05.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/5eeec2f4c1e9b3b6-zstd_v06.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/5eeec2f4c1e9b3b6-zstd_v07.o" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/690f776bf7b37aeb-huf_decompress_amd64.o"
+cargo:warning=exit status: 0
+cargo:warning=running: "ar" "s" "/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out/libzstd.a"
+cargo:warning=exit status: 0
+cargo:rustc-link-lib=static=zstd
+cargo:rustc-link-search=native=/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out
+cargo:root=/Users/gabriel/SunSound/SunSoun_Webtask_BackEnd_Service/SunSoun_Webtask_Service/target/debug/build/zstd-sys-0a07d83d663b214a/out
+cargo:include=/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zstd-sys-2.0.9+zstd.1.5.5/zstd/lib
