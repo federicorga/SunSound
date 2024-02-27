@@ -1,0 +1,117 @@
+.landing-sunsound-child1 {
+    position: absolute;
+    top: 9068px;
+  }
+  
+  .rectangle-div {
+    position: absolute;
+    top: 8504px;
+    left: 120px;
+    background-color: var(--color-white);
+    width: 1200px;
+    height: 2px;
+  }
+  
+  .redes-sociales {
+    position: absolute;
+    top: 8594px;
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+    left: 527px;
+    text-align: center;
+  }
+  
+  .acerca-de,
+  .ingresa {
+    position: absolute;
+    top: 8594px;
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+    left: 730px;
+    cursor: pointer;
+  }
+  
+  .ingresa {
+    left: 933px;
+  }
+  
+  .twitter,
+  .solana,
+  .plataforma {
+    position: absolute;
+    top: 8641px;
+    left: 527px;
+    cursor: pointer;
+  }
+  
+  .solana,
+  .plataforma {
+    left: 730px;
+    cursor: pointer;
+  }
+  
+  .plataforma {
+    left: 933px;
+    cursor: pointer;
+  }
+  
+  .instagram,
+  .introduccin {
+    position: absolute;
+    top: 8685px;
+    left: 731px;
+    cursor: pointer;
+  }
+  
+  .instagram {
+    left: 527px;
+    cursor: pointer;
+  }
+  
+  .discord,
+  .facebook,
+  .sunsound1,
+  .tiktok {
+    position: absolute;
+    top: 8729px;
+    left: 527px;
+    cursor: pointer;
+  }
+  
+  .discord,
+  .sunsound1,
+  .tiktok {
+    top: 8773px;
+    cursor: pointer;
+  }
+  
+  .tiktok:hover {
+    cursor: pointer;
+  }
+  
+  .discord,
+  .sunsound1 {
+    top: 8817px;
+    cursor: pointer;
+  }
+  
+  .discord:hover,
+  .tiktok:hover {
+    color: var(--color-darkgray-100);
+  }
+  
+  .sunsound1 {
+    margin: 0;
+    top: 8730px;
+    left: 200px;
+    font-size: var(--font-size-6xl);
+    font-family: inherit;
+  }
+  
+  .sunsound2 {
+    position: absolute;
+    top: 9086px;
+    left: 120px;
+  }
+  
+

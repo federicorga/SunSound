@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-6xl: 25px;
+  --font-size-lg: 18px;
+  --font-size-sm: 14px;
+  --font-size-xl: 20px;
+  --font-size-21xl: 40px;
+
+  /* Colors */
+  --color-blueviolet-100: #8f00ff;
+  --color-gray-100: rgba(255, 255, 255, 0.5);
+  --color-white: #fff;
+  --color-darkgray-100: #a6a6a6;
+  --color-darkgray-200: #9b9b9b;
+  --color-darkslategray: #322e2f;
+
+  /* Gaps */
+  --gap-9xl: 28px;
+
+  /* Border radiuses */
+  --br-20xl: 39px;
+  --br-22xl: 41px;
+  --br-11xl: 30px;
+  --br-3xs: 10px;
+}
+
+
+.landing-sunsound-body {
+  width: 100%;
+  position: relative;
+  background-color: #221e1f;
+  height: 9334px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
