@@ -1,0 +1,10 @@
+/Users/gabriel/SunSound/backend/SunSound_Auth/target/debug/deps/libaws_credential_types-b357d1c245dc74d2.rmeta: /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-credential-types-1.1.6/src/lib.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-credential-types-1.1.6/src/credential_fn.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-credential-types-1.1.6/src/credentials_impl.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-credential-types-1.1.6/src/provider.rs
+
+/Users/gabriel/SunSound/backend/SunSound_Auth/target/debug/deps/libaws_credential_types-b357d1c245dc74d2.rlib: /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-credential-types-1.1.6/src/lib.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-credential-types-1.1.6/src/credential_fn.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-credential-types-1.1.6/src/credentials_impl.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-credential-types-1.1.6/src/provider.rs
+
+/Users/gabriel/SunSound/backend/SunSound_Auth/target/debug/deps/aws_credential_types-b357d1c245dc74d2.d: /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-credential-types-1.1.6/src/lib.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-credential-types-1.1.6/src/credential_fn.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-credential-types-1.1.6/src/credentials_impl.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-credential-types-1.1.6/src/provider.rs
+
+/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-credential-types-1.1.6/src/lib.rs:
+/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-credential-types-1.1.6/src/credential_fn.rs:
+/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-credential-types-1.1.6/src/credentials_impl.rs:
+/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-credential-types-1.1.6/src/provider.rs:

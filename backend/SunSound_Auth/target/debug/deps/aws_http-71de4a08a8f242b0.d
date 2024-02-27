@@ -1,0 +1,11 @@
+/Users/gabriel/SunSound/backend/SunSound_Auth/target/debug/deps/libaws_http-71de4a08a8f242b0.rmeta: /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-http-0.8.0/src/lib.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-http-0.8.0/src/auth.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-http-0.8.0/src/recursion_detection.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-http-0.8.0/src/retry.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-http-0.8.0/src/user_agent.rs
+
+/Users/gabriel/SunSound/backend/SunSound_Auth/target/debug/deps/libaws_http-71de4a08a8f242b0.rlib: /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-http-0.8.0/src/lib.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-http-0.8.0/src/auth.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-http-0.8.0/src/recursion_detection.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-http-0.8.0/src/retry.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-http-0.8.0/src/user_agent.rs
+
+/Users/gabriel/SunSound/backend/SunSound_Auth/target/debug/deps/aws_http-71de4a08a8f242b0.d: /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-http-0.8.0/src/lib.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-http-0.8.0/src/auth.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-http-0.8.0/src/recursion_detection.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-http-0.8.0/src/retry.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-http-0.8.0/src/user_agent.rs
+
+/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-http-0.8.0/src/lib.rs:
+/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-http-0.8.0/src/auth.rs:
+/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-http-0.8.0/src/recursion_detection.rs:
+/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-http-0.8.0/src/retry.rs:
+/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aws-http-0.8.0/src/user_agent.rs:

@@ -1,0 +1,11 @@
+/Users/gabriel/SunSound/backend/SunSound_Auth/target/debug/deps/libxmlparser-75677d6c40deec7b.rmeta: /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xmlparser-0.13.3/src/lib.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xmlparser-0.13.3/src/error.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xmlparser-0.13.3/src/stream.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xmlparser-0.13.3/src/strspan.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xmlparser-0.13.3/src/xmlchar.rs
+
+/Users/gabriel/SunSound/backend/SunSound_Auth/target/debug/deps/libxmlparser-75677d6c40deec7b.rlib: /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xmlparser-0.13.3/src/lib.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xmlparser-0.13.3/src/error.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xmlparser-0.13.3/src/stream.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xmlparser-0.13.3/src/strspan.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xmlparser-0.13.3/src/xmlchar.rs
+
+/Users/gabriel/SunSound/backend/SunSound_Auth/target/debug/deps/xmlparser-75677d6c40deec7b.d: /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xmlparser-0.13.3/src/lib.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xmlparser-0.13.3/src/error.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xmlparser-0.13.3/src/stream.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xmlparser-0.13.3/src/strspan.rs /Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xmlparser-0.13.3/src/xmlchar.rs
+
+/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xmlparser-0.13.3/src/lib.rs:
+/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xmlparser-0.13.3/src/error.rs:
+/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xmlparser-0.13.3/src/stream.rs:
+/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xmlparser-0.13.3/src/strspan.rs:
+/Users/gabriel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xmlparser-0.13.3/src/xmlchar.rs:

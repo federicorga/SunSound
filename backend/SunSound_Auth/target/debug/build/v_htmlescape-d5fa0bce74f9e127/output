@@ -1,0 +1,1 @@
+cargo:rustc-cfg=v_escape_sse
