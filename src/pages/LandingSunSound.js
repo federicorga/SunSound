@@ -10,6 +10,7 @@ import Footer from "../components/Footer/Footer";
 import CardStar from "../components/CardStar/CardStar";
 import SliderCursos from "../components/SliderCursos/SliderCursos";
 import ButtonPrincipal from "../components/ButtonPrincipal/ButtonPrincipal";
+import NavBar from "../components/NavBar/NavBar";
 
 const LandingSunSound = () => {
   return (
@@ -18,15 +19,7 @@ const LandingSunSound = () => {
     <div className="landing-sunsound-body">
 
 
-<header>
-<div className="sunsound">
-        <span className="sun">Sun</span>
-        <span className="sound">Sound</span>
-      </div>
-      <div className="sec-button-plataforma">
-      <ButtonPrincipal mostrarFlecha="true" text="Plataforma" Alto="50.86%" anchoSinFlecha="100rem" tamanoTexto="12px"></ButtonPrincipal>
-      </div>
-</header>
+    <NavBar></NavBar>
       <section className="triangulos-background">
         <img
           className="triangulos-background-child"
