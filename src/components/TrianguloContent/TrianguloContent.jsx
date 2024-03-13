@@ -4,7 +4,7 @@ function TrianguloContent({size=400}) {
 
     const sizeMit= size/2;
   return (
-    <section>
+    <section className='content-triangulo-component'>
       <div className='triangulo-Content-grupA'>  
       <Triangulo size={size} rotation="260"/>
       <Triangulo size={sizeMit} rotation="0"/>

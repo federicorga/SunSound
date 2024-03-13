@@ -2,11 +2,9 @@
 
   background: url("/public/rectangle-2@2x.png");
   display: flex;
-  position: absolute;
   height: 0.86%;
   width: 12rem;
-  bottom: 15.92%;
-  left: 40.07%;
+
   border-radius: var(--br-20xl);
   max-width: 100%;
   overflow: hidden;
@@ -20,6 +18,7 @@
   font-family: inherit;
   text-align: center;
   align-items: center;
+  justify-content: center;
    
   
 }
@@ -39,8 +38,7 @@
 }
 
 .content-button-plataforma h3{
-  position: absolute;
-  left: 2.9rem;
+
   font-size: var(--font-size-6xl);
 }
 

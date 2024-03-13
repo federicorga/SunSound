@@ -10,10 +10,9 @@
   .logos {
     overflow: hidden;
     padding: 60px 0;
-
+    width: 100%;
     white-space: nowrap;
-    position: relative;
-    top: 5743px;
+
   }
   
   .logos:before,
