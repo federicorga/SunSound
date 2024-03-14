@@ -1,4 +1,4 @@
-import Triangulo from '../Triangulo/Triangulo';
+import Triangulo from '../GlobalComponents/Triangulo/Triangulo';
 import './TrianguloContent.css'
 function TrianguloContent({size=400}) {
 

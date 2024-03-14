@@ -1,4 +1,4 @@
-import Arrow from '../IconsElements/Arrow/Arrow';
+import Arrow from '../../IconsElements/Arrow/Arrow';
 import './ButtonA.css'
 
 function ButtonA({text="Boton", mostrarFlecha=false, Alto="66.86%", anchoSinFlecha="11rem", tamanoTexto="20px"}) {

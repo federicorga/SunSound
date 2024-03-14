@@ -1,11 +1,12 @@
 import CardStar from '../GlobalComponents/CardStar/CardStar';
 import Footer from '../Footer/Footer';
 import NavBar from '../NavBar/NavBar';
+
 import SliderCursos from '../GlobalComponents/SliderCursos/SliderCursos';
 import TextBoxLandingContentA from '../TextBoxLandingContent/TextBoxLandingContentA';
 import TextBoxLandingContentB from '../TextBoxLandingContent/TextBoxLandingContentB';
 import TrianguloContent from '../TrianguloContent/TrianguloContent';
-import ButtonPrincipal from '../ButtonPrincipal/ButtonPrincipal';
+import ButtonPrincipal from '../GlobalComponents/ButtonPrincipal/ButtonPrincipal';
 import './LandingPage.css'
 import UserOpinion from '../GlobalComponents/UserOpinion/UserOpinion';
 
